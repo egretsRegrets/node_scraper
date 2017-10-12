@@ -1,0 +1,29 @@
+{
+  "name": "node_scraper",
+  "version": "1.0.0",
+  "description": "web scraping with node from scotch.io",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercantilism/node_scraper.git"
+  },
+  "keywords": [
+    "node",
+    "web scraper",
+    "web crawler"
+  ],
+  "author": "mercantilism",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercantilism/node_scraper/issues"
+  },
+  "homepage": "https://github.com/mercantilism/node_scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
