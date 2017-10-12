@@ -12,3 +12,8 @@ npm-debug.log*
 # Dependency directories #
 ######################
 node_modules/
+
+# Output files #
+######################
+output.json
+polygon_output.json

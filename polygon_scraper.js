@@ -42,6 +42,7 @@ app.get('/scrape_polygon', function(req, res){
                             .find('a')
                             .text();
                         article.pubDate = $('.c-entry-hero .c-byline time').text().trim();
+                        article.summary = $('.c-entry-hero .c-entry-summary').text().trim();
                         // write article to json obj
                         json[artURL] = article;
                     }
