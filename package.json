@@ -4,7 +4,7 @@
   "description": "web scraping with node from scotch.io",
   "main": "index.js",
   "scripts": {
-    "serve": "node ./server.js" 
+    "serve": "node ./polygon_scraper.js" 
   },
   "repository": {
     "type": "git",
