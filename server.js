@@ -41,6 +41,9 @@ app.get('/scrape', function(req, res){
             rating = $('.imdbRating strong span').text();
             json.rating = rating;
         }
+        else{
+            console.error(error);
+        }
 
         // write json to file
         fs.writeFile('output.json', JSON.stringify(json, null, 4), (err) => {
